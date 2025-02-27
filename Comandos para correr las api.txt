@@ -1,0 +1,28 @@
+PARA API DE PYTHON
+
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install -y python3 python3-pip
+
+pip3 install flask
+
+git clone https://github.com/Kervin1695/Seminario_1_G19_HT1.git
+
+cd Seminario_1_G19_HT1
+
+python3 API_1.py
+
+
+
+PARA API DE JS
+
+sudo apt update -y && sudo apt upgrade -y
+sudo apt install -y nodejs npm
+
+git clone https://github.com/Kervin1695/Seminario_1_G19_HT1.git
+
+cd Seminario_1_G19_HT1
+
+npm init -y
+npm install express
+
+node API_2.js
