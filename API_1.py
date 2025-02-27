@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/check', methods=['GET'])
 def check_status():
@@ -15,4 +17,4 @@ def get_info():
     })
 
 if __name__ == '__main__':
-    app.run(port=8000, debug=True)
+    app.run(host='0.0.0.0', port=3000, debug=True)
